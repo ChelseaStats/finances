@@ -3,12 +3,12 @@ name: Update CFC PLC accounts
 on:  # yamllint disable-line rule:truthy
   # Scheduled for 2am on 15th August every year
   schedule:
-    - cron: '0 2 27 8 *'  # * is a special character in YAML so we have to quote this string
+    - cron: '0 8 07 1 *'  # * is a special character in YAML so we have to quote this string
 
 jobs:
   create_issue:
     name: Scheduled Update of CFC PLC accounts
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
 
       # Repo code checkout required if `template` is used
