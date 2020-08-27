@@ -1,0 +1,26 @@
+---
+name: Update CFC LTD accounts
+on:  # yamllint disable-line rule:truthy
+  # Scheduled for 2am on 15th August every year
+  schedule:
+    - cron: '0 2 27 8 *'  # * is a special character in YAML so we have to quote this string
+
+jobs:
+  create_issue:
+    name: Scheduled Update of CFC LTD accounts
+    runs-on: ubuntu-20.04
+    steps:
+
+      # Repo code checkout required if `template` is used
+      - name: Checkout
+        uses: actions/checkout@v2.3.2
+
+      - name: issue-bot
+        uses: imjohnbo/issue-bot@v2.3
+        with:
+          assignees: "MatBenfield"
+          labels: "CFC LTD"
+          # assignees & labels in the template are overridden by the values specified in this action
+          template: ".github/ISSUE_TEMPLATE/cfc_ltd.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
