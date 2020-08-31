@@ -1,0 +1,265 @@
+[
+    {
+        "year":"2019",
+        "turnover":"446.741000 m",
+        "profit_loss":"-96.571000 m",
+        "wages":"285.550000 m",
+        "strgl":"-101.786000 m",
+        "wages_turnover":"0.639184",
+        "playing_staff":"165",
+        "non_playing_staff":"633",
+        "total":"798",
+        "average_wage":"0.357832 m"
+    },
+
+
+    {
+        "year":"2018",
+        "turnover":"443.449000 m",
+        "profit_loss":"62.033000 m",
+        "wages":"244.084000 m",
+        "strgl":"67.461000 m",
+        "wages_turnover":"0.550359",
+        "playing_staff":"162",
+        "non_playing_staff":"594",
+        "total":"756",
+        "average_wage":"0.296407 m"
+    },
+
+    {
+        "year":"2017",
+        "turnover":"361.308000 m",
+        "profit_loss":"15.261000 m",
+        "wages":"219.659000 m",
+        "strgl":"15.645000 m",
+        "wages_turnover":"0.607954",
+        "playing_staff":"152",
+        "non_playing_staff":"660",
+        "total":"810",
+        "average_wage":"0.271183 m"
+    },
+
+    {
+        "year":"2016",
+        "turnover":"329.122000 m",
+        "profit_loss":"-70.61600 m",
+        "wages":"222.406000 m",
+        "strgl":"-69.78900 m",
+        "wages_turnover":"0.675755",
+        "playing_staff":"137",
+        "non_playing_staff":"648",
+        "total":"785",
+        "average_wage":"0.283319 m"
+    },
+
+    {
+        "year":"2015",
+        "turnover":"314.287000 m",
+        "profit_loss":"-22.723000 m",
+        "wages":"215.647000 m",
+        "strgl":"-21.395000 m",
+        "wages_turnover":"0.686146",
+        "playing_staff":"92",
+        "non_playing_staff":"589",
+        "total":"681",
+        "average_wage":"0.316662 m"
+    },
+
+    {
+        "year":"2014",
+        "turnover":"319.843000 m",
+        "profit_loss":"18.416000 m",
+        "wages":"190.581000 m",
+        "strgl":"20.329000 m",
+        "wages_turnover":"0.595938",
+        "playing_staff":"89",
+        "non_playing_staff":"580",
+        "total":"669",
+        "average_wage":"0.284874 m"
+    },
+
+    {
+        "year":"2013",
+        "turnover":"255.800000 m",
+        "profit_loss":"-49.400000 m",
+        "wages":"176.568000 m",
+        "strgl":"-49.235000 m",
+        "wages_turnover":"0.690258",
+        "playing_staff":"95",
+        "non_playing_staff":"534",
+        "total":"629",
+        "average_wage":"0.280712 m"
+    },
+
+    {
+        "year":"2012",
+        "turnover":"257.500000 m",
+        "profit_loss":"1.378000 m",
+        "wages":"171.036000 m",
+        "strgl":"1.378000 m",
+        "wages_turnover":"0.664217",
+        "playing_staff":"89",
+        "non_playing_staff":"515",
+        "total":"604",
+        "average_wage":"0.283172 m"
+    },
+
+    {
+        "year":"2011",
+        "turnover":"225.595000 m",
+        "profit_loss":"-67.655000 m",
+        "wages":"189.539000 m",
+        "strgl":"-66.922000 m",
+        "wages_turnover":"0.840173",
+        "playing_staff":"69",
+        "non_playing_staff":"482",
+        "total":"551",
+        "average_wage":"0.343990 m"
+    },
+
+    {
+        "year":"2010",
+        "turnover":"209.521000 m",
+        "profit_loss":"-70.878000 m",
+        "wages":"172.553000 m",
+        "strgl":"-74.280000 m",
+        "wages_turnover":"0.823559",
+        "playing_staff":"75",
+        "non_playing_staff":"473",
+        "total":"548",
+        "average_wage":"0.314878 m"
+    },
+
+    {
+        "year":"2009",
+        "turnover":"206.424000 m",
+        "profit_loss":"-44.395000 m",
+        "wages":"165.608000 m",
+        "strgl":"-43.106000 m",
+        "wages_turnover":"0.802271",
+        "playing_staff":"79",
+        "non_playing_staff":"494",
+        "total":"573",
+        "average_wage":"0.289019 m"
+    },
+
+    {
+        "year":"2008",
+        "turnover":"213.106000 m",
+        "profit_loss":"-65.672000 m",
+        "wages":"171.620000 m",
+        "strgl":"-64.383000 m",
+        "wages_turnover":"0.805327",
+        "playing_staff":"83",
+        "non_playing_staff":"516",
+        "total":"599",
+        "average_wage":"0.286511 m"
+    },
+
+    {
+        "year":"2007",
+        "turnover":"213.106000 m",
+        "profit_loss":"-65.672000 m",
+        "wages":"171.620000 m",
+        "strgl":"-64.383000 m",
+        "wages_turnover":"0.805327",
+        "playing_staff":"83",
+        "non_playing_staff":"516",
+        "total":"599",
+        "average_wage":"0.286511 m"
+    },
+
+    {
+        "year":"2006",
+        "turnover":"152.838000 m",
+        "profit_loss":"-80.193000 m",
+        "wages":"114.002000 m",
+        "strgl":"-78.943000 m",
+        "wages_turnover":"0.745901",
+        "playing_staff":"90",
+        "non_playing_staff":"473",
+        "total":"563",
+        "average_wage":"0.202490 m"
+    },
+
+    {
+        "year":"2005",
+        "turnover":"149.112000 m",
+        "profit_loss":"-139.958000 m",
+        "wages":"108.887000 m",
+        "strgl":"139.958000 m",
+        "wages_turnover":"0.730236",
+        "playing_staff":"87",
+        "non_playing_staff":"510",
+        "total":"597",
+        "average_wage":"0.182390 m"
+    },
+
+    {
+        "year":"2004",
+        "turnover":"153.625000 m",
+        "profit_loss":"-87.851000 m",
+        "wages":"115.565000 m",
+        "strgl":"-87.851000 m",
+        "wages_turnover":"0.752254",
+        "playing_staff":"100",
+        "non_playing_staff":"544",
+        "total":"644",
+        "average_wage":"0.179449 m"
+    },
+
+    {
+        "year":"2003",
+        "turnover":"109.934000 m",
+        "profit_loss":"-26.510000 m",
+        "wages":"55.865000 m",
+        "strgl":"-28.320000 m",
+        "wages_turnover":"0.508169",
+        "playing_staff":"76",
+        "non_playing_staff":"497",
+        "total":"573",
+        "average_wage":"0.097496 m"
+    },
+
+    {
+        "year":"2002",
+        "turnover":"115.319000 m",
+        "profit_loss":"-16.451000 m",
+        "wages":"57.251000 m",
+        "strgl":"-11.008000 m",
+        "wages_turnover":"0.496458",
+        "playing_staff":"80",
+        "non_playing_staff":"488",
+        "total":"568",
+        "average_wage":"0.100794 m"
+    },
+
+    {
+        "year":"2001",
+        "turnover":"93.637000 m",
+        "profit_loss":"-11.090000 m",
+        "wages":"51.714000 m",
+        "strgl":"-6.841000 m",
+        "wages_turnover":"0.552282",
+        "playing_staff":"74",
+        "non_playing_staff":"424",
+        "total":"498",
+        "average_wage":"0.103843 m"
+    },
+
+
+    {
+        "year":"2000",
+        "turnover":"106.771000 m",
+        "profit_loss":"-3.502000 m",
+        "wages":"48.765000 m",
+        "strgl":"-0.918000 m",
+        "wages_turnover":"0.456725",
+        "playing_staff":"78",
+        "non_playing_staff":"415",
+        "total":"493",
+        "average_wage":"0.098915 m"
+    }
+    
+]
+
