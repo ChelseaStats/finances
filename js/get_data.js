@@ -1,6 +1,6 @@
 $(document).ready(function(){
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-    $.getJSON("js/cfc_limited.json",function(data){
+    $.getJSON("js/cfc_ltd.json",function(data){
 
         var table_data='';
         
@@ -18,11 +18,11 @@ $(document).ready(function(){
             table_data+='<td align="right" class="nowrap"><nobr>&pound '+ value.average_wage+'</nobr></td>';
             table_data+='</tr>';
         });
-        $('#financial-analysis-chelsea-football-limited').append(table_data);
+        $('#cfc-ltd').append(table_data);
     });
 
 
-    $.getJSON("js/chelsea_fc_plc.json",function(data){
+    $.getJSON("js/cfc_plc.json",function(data){
 
         var table_data='';
         
@@ -40,7 +40,7 @@ $(document).ready(function(){
             table_data+='<td align="right" class="nowrap"><nobr>&pound '+ value.average_wage+'</nobr></td>';
             table_data+='</tr>';
         });
-        $('#financial-analysis-chelsea-football-club-plc').append(table_data);
+        $('#cfc-plc').append(table_data);
     });
 });  
 
