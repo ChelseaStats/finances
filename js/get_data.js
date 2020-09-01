@@ -18,7 +18,7 @@ $(document).ready(function(){
             table_data+='<td align="right" class="nowrap"><nobr>&pound '+ value.average_wage+'</nobr></td>';
             table_data+='</tr>';
         });
-        $('#cfc-ltd').append(table_data);
+        $('#cfc_ltd').append(table_data);
     });
 
 
@@ -40,7 +40,7 @@ $(document).ready(function(){
             table_data+='<td align="right" class="nowrap"><nobr>&pound '+ value.average_wage+'</nobr></td>';
             table_data+='</tr>';
         });
-        $('#cfc-plc').append(table_data);
+        $('#cfc_plc').append(table_data);
     });
 });  
 
