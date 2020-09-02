@@ -3,7 +3,13 @@ $(document).ready(function(){
     $.getJSON("js/cfc_ltd.json",function(data){
 
         var table_data='';
-        
+        $("#cfc_ltd").tablesorter({
+        theme: 'blue',
+        headerTemplate : '{content} {icon}',
+        widthFixed: true,
+        widgets: ['zebra', 'filter']
+        });
+
         $.each(data,function(key,value){
             table_data+='<tr >';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
             table_data+='<td align="right">'+ value.year+'</td>';
@@ -19,12 +25,19 @@ $(document).ready(function(){
             table_data+='</tr>';
         });
         $('#cfc_ltd').append(table_data);
+        $('#cfc_ltd').trigger('update');
     });
 
 
     $.getJSON("js/cfc_plc.json",function(data){
 
         var table_data='';
+        $("#cfc_plc").tablesorter({
+            theme: 'blue',
+            headerTemplate : '{content} {icon}',
+            widthFixed: true,
+            widgets: ['zebra', 'filter']
+            });
         
         $.each(data,function(key,value){
             table_data+='<tr >';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
@@ -41,6 +54,7 @@ $(document).ready(function(){
             table_data+='</tr>';
         });
         $('#cfc_plc').append(table_data);
+        $('#cfc_plc').trigger('update');
     });
 });  
 
